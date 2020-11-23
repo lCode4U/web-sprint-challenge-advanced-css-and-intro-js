@@ -208,6 +208,8 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
+ const name = '{id}[$name]';
+return .artists:name[0]
 
 
 //(2) Bio of the third artist (2nd index) in the array 
@@ -228,7 +230,8 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
+function getArtistByIndex(Array, Index) {
+  return 'the artist at index {id} is {name}'
   /*Your Code Here*/
 }  
 
