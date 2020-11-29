@@ -238,7 +238,7 @@ button:hover {
         font-size: 1rem;
     }
 
-    image  {
-        width: 100%;
+    section div img  {
+        height: 15%;
     }
 }
