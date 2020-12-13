@@ -208,13 +208,11 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
-foreach($artists as $key => $value)
-console.log();
-
+console.log(artists.name)
 
 //(2) Bio of the third artist (2nd index) in the array 
-console.log('bio.artists'[2]);
-
+const bio = Array.of(2.5)
+console.log(bio);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -231,7 +229,7 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
+function getArtistByIndex(array) {
   /*Your Code Here*/
 }  
 
@@ -241,7 +239,6 @@ function getArtistByIndex(/*Your Code Here*/) {
 Use get20s to do the following: 
 1. Receive an array
 2. Return a new array with names of artists who were born in and died in 20th century (1900-2000) 
-
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
@@ -278,7 +275,6 @@ Use addArtist to do the following:
       bio: Add 1-2 sentences (or use lorem ipsum)
     }  
 3. Return the resulting array
-
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(/*Your Code Here*/){
@@ -291,7 +287,6 @@ function addArtist(/*Your Code Here*/){
 Use lotsOfArt to do the following: 
 1. Receive an array 
 2. Return an array with names of artists in the received array who painted more than 100 paintings.
-
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(/*Your Code Here*/){
@@ -304,9 +299,7 @@ function lotsOfArt(/*Your Code Here*/){
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
 Programmatically console.log HTML element structure.
-
 In HTML, every artist and associated content uses the following structure: 
-
 <div id="artist">
 <div class="image">
     <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"/>
@@ -316,11 +309,8 @@ In HTML, every artist and associated content uses the following structure:
 </div>
 <div class = "bio">Vincent Willem van Gogh (Dutch: [ˈvɪnsɛnt ˈʋɪləm vɑŋ ˈɣɔx] (listen); 30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of them in the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. However, he was not commercially successful, and his suicide at 37 followed years of mental illness and poverty.</div>
 </div>
-
 Create a function called `getHTML()` that takes the parameter `data` and uses a for..in loop to format and console.log data like the example above. 
-
 The function should console.log 50 chunks of HTML code that match the structure above. 
-
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
 function getHTML(/* Code here */){
