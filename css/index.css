@@ -226,19 +226,6 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-    .vw-container header nav a {
-        font-size: 45%;
-    }
+/*  */
 
-    h1 {
-        font-size: 3rem;
-    }
-
-    button {
-        font-size: 1rem;
-    }
-
-    section div img  {
-        height: 15%;
-    }
 }
