@@ -208,31 +208,30 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
-console.log(artists[0].name);
+
 
 //(2) Bio of the third artist (2nd index) in the array 
-console.log(artists[2].bio);
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
-artists[8].name ="Vincent Van Gogh";
-console.log(artists[8].name);
+
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
- Use getArtistByIndex to do the following:
- 1. Receive an array
- 2. Receive a number, which is the desired index in the array.
- 3. Return a string in the format `the artist at index {id} is {name}`
- 
- Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
+Use getArtistByIndex to do the following:
+1. Receive an array
+2. Receive a number, which is the desired index in the array.
+3. Return a string in the format `the artist at index {id} is {name}`
 
-function getArtistByIndex(array, index) {
-return `the artist at index ${array[index].id} is ${array[index].name}`;
-}
+Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-console.log(getArtistByIndex(artists, [0]));
+function getArtistByIndex(/*Your Code Here*/) {
+/*Your Code Here*/
+}  
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -243,44 +242,43 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-// function get20s(array) {
-  
-  
-// }
+function get20s(/*Your Code Here*/){
+/*Your Code Here*/
+}
 
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
- Use removeArtist to do the following:
- 1. Receive an array
- 2. Receive a number which is the desired index in the array
- 3. The function should remove an artist from the array at the index
- 4. Return the length of the remaining dataset.
- 
- For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
+Use removeArtist to do the following:
+1. Receive an array
+2. Receive a number which is the desired index in the array
+3. The function should remove an artist from the array at the index
+4. Return the length of the remaining dataset.
 
-function removeArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
+
+function removeArtist(/*Your Code Here*/){
+ /*Your Code Here*/
 }
-
+ 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
 1. Receive an array
 2. Add this object of information to the end of the array
-    { 
-      id: 20,
-      name: Your Name Here, 
-      years: Your Birth Year - current day,
-      genre: Web Design, 
-      nationality: Your Nationality Here
-      bio: Add 1-2 sentences (or use lorem ipsum)
-    }  
+  { 
+    id: 20,
+    name: Your Name Here, 
+    years: Your Birth Year - current day,
+    genre: Web Design, 
+    nationality: Your Nationality Here
+    bio: Add 1-2 sentences (or use lorem ipsum)
+  }  
 3. Return the resulting array
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
+function addArtist(/*Your Code Here*/){
   /*Your Code Here*/
 }
 
@@ -293,8 +291,8 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lotsOfArt(/*Your Code Here*/){
+/*Your Code Here*/
 }
 
 
@@ -308,10 +306,10 @@ In HTML, every artist and associated content uses the following structure:
 
 <div id="artist">
 <div class="image">
-    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"/>
+  <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"/>
 </div>
 <div class = "name">
-   <a href="https://en.wikipedia.org/wiki/Vincent_van_Gogh"> Vincent Van Gogh</a>
+ <a href="https://en.wikipedia.org/wiki/Vincent_van_Gogh"> Vincent Van Gogh</a>
 </div>
 <div class = "bio">Vincent Willem van Gogh (Dutch: [ˈvɪnsɛnt ˈʋɪləm vɑŋ ˈɣɔx] (listen); 30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of them in the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. However, he was not commercially successful, and his suicide at 37 followed years of mental illness and poverty.</div>
 </div>
@@ -322,21 +320,21 @@ The function should console.log 50 chunks of HTML code that match the structure 
 
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
-// function getHTML(/* Code here */) {
-
-//   /* Code here */
-
-// }
-
-
-// /* 💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪
-// Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
-
-// function randomize(/* Code here */) {
+function getHTML(/* Code here */){
 
   /* Code here */
 
-// }
+}
+
+
+/* 💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪
+Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
+
+function randomize(/* Code here */){
+
+  /* Code here */
+
+}
 
 
 /* 💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪
@@ -346,16 +344,16 @@ Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (cr
 
 
 /* 🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑*/
-function foo() {
-  console.log('its working');
-  return 'bar';
+function foo(){
+console.log('its working');
+return 'bar';
 }
 /*Don't touch the code after this line! */
-export default {
-  foo,
-  getArtistByIndex,
-  get20s,
-  removeArtist,
-  addArtist,
-  lotsOfArt
+export default{
+foo,
+getArtistByIndex,
+get20s,
+removeArtist,
+addArtist,
+lotsOfArt
 }
